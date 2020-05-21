@@ -1,0 +1,10 @@
+[book]
+authors = ["jonasbak"]
+language = "en"
+multilingual = false
+src = "src"
+title = "example"
+
+
+[preprocessor.cs]
+renderer = ["html"]

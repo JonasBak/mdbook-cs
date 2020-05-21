@@ -62,7 +62,7 @@ impl Preprocessor for Preproc {
                                 \usepackage{fancybox}
                                 \usepackage{pgfplots}
                                 \usepackage{tikz}
-                                \usetikzlibrary{positioning,arrows,shapes,intersections,trees}
+                                \usetikzlibrary{positioning,arrows,arrows.meta,shapes,intersections,trees}
                                 \begin{document}
                                 ",
                         )
