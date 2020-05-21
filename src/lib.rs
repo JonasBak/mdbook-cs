@@ -93,7 +93,7 @@ impl Preprocessor for Preproc {
                         fs::copy(pdf_from, pdf_to).unwrap();
 
                         format!(
-                            r#"<embed src="/generated/{}.pdf" width="600px" height="400px"/>"#,
+                            r#"<embed src="generated/{}.pdf" width="600px" height="400px"/>"#,
                             figure_name
                         )
                     })
