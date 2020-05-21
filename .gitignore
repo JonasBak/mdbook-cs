@@ -1,2 +1,7 @@
 /target
 test-book
+Cargo.lock
+Cargo.toml
+example
+src
+target
